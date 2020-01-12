@@ -1,25 +1,27 @@
 {
-    "name": "amconnector",
-    "version": "1.0.0",
-    "description": "Acuamtica Magento Connector",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "docs:build": "vuepress build"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/abdulhkensium/amconnector.git"
-    },
-    "keywords": [],
-    "author": "Abdul Hafeez",
-    "license": "Proparatory",
-    "bugs": {
-      "url": "https://github.com/abdulhkensium/amconnector.git"
-    },
-    "homepage": "https://github.com/abdulhkensium/amconnector#readme",
-    "dependencies": {
-      "vuepress": "^1.2.0"
-    }
-   
+  "name": "amconnector",
+  "version": "1.0.0",
+  "description": "Acuamtica Magento Connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhkensium/amconnector.git"
+  },
+  "keywords": [],
+  "author": "Abdul Hafeez",
+  "license": "Proparatory",
+  "bugs": {
+    "url": "https://github.com/abdulhkensium/amconnector.git"
+  },
+  "homepage": "https://github.com/abdulhkensium/amconnector#readme",
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.2.0"
   }
+}
