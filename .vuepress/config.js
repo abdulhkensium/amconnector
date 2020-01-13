@@ -12,6 +12,7 @@ module.exports = {
         lastUpdated: 'Last Updated',
       
         algolia: {
+          appId: 'BJRSDMOEJ2',
           apiKey: 'e34fd6607c0d17a88dbf54966cad9363',
           indexName: 'amconnector'
         },
