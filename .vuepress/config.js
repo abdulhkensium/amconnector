@@ -8,7 +8,8 @@ module.exports = {
     
       themeConfig: {
         displayAllHeaders: true,
-        
+        sidebar: 'auto',
+
         nav: [
           { text: 'Home', link: '/' },
           { text: 'About', link: '/about/' }, 
@@ -21,6 +22,8 @@ module.exports = {
            
           ]
       },
+
+
    
     plugins: ['@vuepress/pwa', {
         serviceWorker: true,
