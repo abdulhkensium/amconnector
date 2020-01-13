@@ -4,7 +4,7 @@ heroImage: /hero.png
 heroText: Documentation
 tagline: Everything you need to setup, configure and manage syncs.
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /about/
 features:
 - title: System Requirements
   details: Minimal setup with Magento default component requirement and RabbitMQ.
