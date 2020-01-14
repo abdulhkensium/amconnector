@@ -1,4 +1,4 @@
-# ACUMATICA LOGS
+# Acumatica Logs
 
 Actions made for syncs in Acumatica are in the Magento Connector workspace under Connector Logs screen.
 

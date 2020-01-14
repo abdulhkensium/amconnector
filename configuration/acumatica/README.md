@@ -1,4 +1,4 @@
-# Estblishing a conneciton with Acumatica
+# Establishing a conneciton with Acumatica
 
 After the package has been published, the connector must be established within Acumatica
 
@@ -155,7 +155,7 @@ Navigate to the **Magento Connector** workspace and select **Category** under th
 
 The selected schema will be active for syncs between Magento and Acumatica.
 
-### Establsihing customer sync schema
+### Establishing customer sync schema
 
 Navigate to the Magento Connector workspace and select **Customer** under the **Schema Management** section. Note there are two extra columns in this schema management: **API Reference Field Path** and **API Input Field Name**. This contains the direction and destination of the selected field using Acumatica’s API framework. These are fields that can be modified to the needs of a user based on the schema that are being synced.
 
