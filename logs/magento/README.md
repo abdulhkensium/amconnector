@@ -12,7 +12,7 @@ The Logging section of the Basic Configuration page allows a user to select the 
 
 At the bottom of the screen there is an option to Flush Messages. This action will delete all log data if necessary.
 
-## Aadmin Logs
+## Admin Logs
 
 The Admin Log contain a log of all the actions made within Magento that are only visible to an admin. Clicking View next to an action will show a detailed entry of the action made.
 
