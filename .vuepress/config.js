@@ -30,7 +30,10 @@ module.exports = {
           ]},
           { text: 'Mapping', link: '/mapping/' },
           { text: 'Queue', link: '/queue/' },
-          { text: 'Logs', link: '/logs/' },
+          { text: 'Logs',items: [
+            { text: 'Acumatica', link: '/logs/acumatica/' },
+            { text: 'Magento', link: '/logs/magento/' } 
+        ]},
           { text: 'Reports', link: '/reports/' }
            
           ]
