@@ -29,12 +29,12 @@ module.exports = {
             { text: 'Magento', link: '/configuration/magento/' }
           ]},
           { text: 'Mapping', link: '/mapping/' },
-          { text: 'Queue', link: '/queue/' },
+       //   { text: 'Queue', link: '/queue/' },
           { text: 'Logs',items: [
             { text: 'Acumatica', link: '/logs/acumatica/' },
             { text: 'Magento', link: '/logs/magento/' } 
         ]},
-          { text: 'Reports', link: '/reports/' }
+         // { text: 'Reports', link: '/reports/' }
            
           ]
       },
