@@ -1,4 +1,4 @@
-# Establishing a conneciton with Acumatica
+# Establishing a connection with Acumatica
 
 After the package has been published, the connector must be established within Acumatica
 
