@@ -35,6 +35,7 @@ module.exports = {
             { text: 'Magento', link: '/logs/magento/' } 
         ]},
          // { text: 'Reports', link: '/reports/' }
+          { text: 'FAQs', link: '/faq/' } 
            
           ]
       },

@@ -332,3 +332,26 @@ Order statuses in Acumatica can be mapped to Magento order statuses to ensure th
 
 The order status is now mapped.
 
+
+## Backorder feature
+
+1. For the product to be available in the front end irrespective of its stock availability in the Magento, we should create custom attribute and assign to Item class of the product in Acumatica with name "BACKORDERS".
+2. We need to bring this Acumatica attribute to Magento mapping screen with the below steps
+	* Go to Product schema screen in Acumatica under the Magento connector section.
+    * Under the attributes tab select the respective "BACKORDERS" attrribute and click on SAVE button.
+    * In Magento click on update schema in the Product attribute mapping screen.
+3. Map the Acumatica "BACKORDERS" attribute with Magento "BACKORDERS" field in the product attribute mapping screen.
+4. Once the mapping is established the Inventory sync will not touch the Stock status of those products for which the BACKORDERS is selected as [Allow Qty below 0 / Allow Qty Below 0 and Notify Customer].
+By this way we can achieve the required functionality.
+
+|Field|Value|
+|---|---|
+|**Attribute ID**|BACKORDERS|
+|**Attribute Name**|BACKORDERS|
+|**Attribute Type**|	Combo|
+
+|Attribute Value ID|	Attribute Value Description|
+|---|---|
+|0|	No Backorders|
+|1|	Allow Qty Below 0|
+|2|	Allow Qty Below 0 and Notify Customer|
