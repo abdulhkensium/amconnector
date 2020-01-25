@@ -10,6 +10,7 @@ module.exports = {
         displayAllHeaders: true,
         sidebar: 'auto',
         lastUpdated: 'Last Updated',
+
       
         algolia: {
           appId: 'BJRSDMOEJ2',
@@ -35,7 +36,16 @@ module.exports = {
             { text: 'Magento', link: '/logs/magento/' } 
         ]},
          // { text: 'Reports', link: '/reports/' }
-          { text: 'FAQs', link: '/faq/' } 
+         {
+         text: 'FAQs',
+         items: [
+           { text: 'Licensing and Installation', link: '/faq/licensing-and-installation.md' },
+           { text: 'Sales', link: '/faq/sales.md' },
+           { text: 'Technical', link: '/faq/technical.md' },
+           { text: 'How and What', link: '/faq/how-and-what.md' }
+         ]
+       },
+          
            
           ]
       },
