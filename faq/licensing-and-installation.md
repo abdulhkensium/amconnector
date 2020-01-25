@@ -5,6 +5,8 @@ next: ./sales
 
 # Licensing and Installation
 
+<TOC />
+
 ## What type of Licensing is required for the connector to work? 
 
 Licensing is available for the connector on the Acumatica side. 

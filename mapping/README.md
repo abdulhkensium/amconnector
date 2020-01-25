@@ -1,5 +1,7 @@
 # Mapping in Magento
 
+<TOC />
+
 When Acumatica data is prepared for syncing, the data paths must be mapped based on attributes and fields established in Magento. This requires the creation of additional schema and attributes in Magento.
 
 ## Mapping Product Attribute Schema

@@ -3,6 +3,7 @@ sidebar: false
 ---
 ![About Connector](/about-product.jpg)
 
+
 # Introduction
 
 The Magento platform is trusted by more than 250,000 businesses, including some of the world's

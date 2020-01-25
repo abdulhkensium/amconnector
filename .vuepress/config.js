@@ -10,6 +10,8 @@ module.exports = {
         displayAllHeaders: true,
         sidebar: 'auto',
         lastUpdated: 'Last Updated',
+        smoothScroll: true,
+        activeHeaderLinks: true,
 
       
         algolia: {
@@ -51,8 +53,24 @@ module.exports = {
       },
 
    
-    plugins: ['@vuepress/pwa', {
+    plugins: [
+      ['@vuepress/back-to-top', true],
+      [
+        'vuepress-plugin-zooming',
+        {
+          selector: '.theme-default-content img',
+          delay: 1000,
+          options: {
+            bgColor: 'black',
+            zIndex: 10000,
+          },
+        },
+      ],
+      ['vuepress-plugin-table-of-contents'],
+      ['@vuepress/nprogress'],
+      ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-    }],
+    }]
+  ]
   }

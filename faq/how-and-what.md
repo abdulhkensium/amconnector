@@ -2,7 +2,10 @@
 prev: ./technical
 next: false
 ---
+
 # How and What?
+
+<TOC />
 
 ## What data is synced between Magento and Acumatica?
 

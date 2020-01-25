@@ -5,6 +5,8 @@ next: ./how-and-what
 
 # Technical - Setup Related Questions
 
+<TOC />
+
 ## Is there a middleware component involved? 
 
 No, there isn’t any middleware component.  Acumatica connector is a native Magento extension that communicates with Acumatica directly via web services. 

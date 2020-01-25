@@ -5,6 +5,8 @@ next: ./technical
 
 # Sales
 
+<TOC />
+
 ## How many implementations of the connector has Kensium done? 
 
 Kensium has implemented the connector between Magento and Acumatica for over 40 customers. 
