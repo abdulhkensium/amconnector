@@ -13,21 +13,21 @@ No, there isn’t any middleware component.  Acumatica connector is a native Mag
 
 ## What versions of Magento does the connector support?
 
-TBD
+Magento Commerce / Commerce Cloud / Open Source  2.2.2 and above.
 
-## What additional components do I need on Magento or Acumatica? 
+## What additional components do I need on Magento and Acumatica? 
 
 Other than the customizations provided as part of the connector solution, no other components are needed for the connector on Acumatica side.  
 
-On Magento, RabbitMQ and Composer are required to the server to setup the connector. 
+On Magento, RabbitMQ and Composer are the required components on the server to set up the connector. 
 
 ## Can I install other extensions on Magento after Acumatica-Magento Connector is installed? 
 
-Yes, Magento connector is built based on Magento extension framework, and should work with other extensions that are also built as per Magento standards.  However, we recommend that you first install the all the components on a staging instance, test for any incompatibilities and then push the changes to production. 
+Yes, Magento connector is built based on Magento extension framework, and works with other extensions that are also built as per Magento standard framework.  However, we recommend that you first install all the components on a staging instance, test for any incompatibilities and then promote the changes to production. 
 
-## How are multiple images and videos managed? Do they live in Acumatica? How can Acumatica handle 10 high res images per product if a client has 10000 SKU’s? 
+## How are multiple images and videos managed? Do they live in Acumatica? How can Acumatica handle 10 high resolution images per product if a client has 10000 SKUs? 
 
-While the connector supports, and one can load images into Acumatica, and can sync them with Magento, this would not be an ideal situation, as you do not want such high res images sitting in Magento as well.  A better option would be to host these on a CDN. 
+While the connector supports, and one can load images into Acumatica, and can sync them with Magento, this would not be an ideal situation, as you do not want such high resolution images sitting in Magento as well.  A better option would be to host these images on a common CDN, where these images can be accessed by both the systems. 
  
 ## What Acumatica API framework does the connector use? 
 
@@ -57,7 +57,7 @@ Yes, this will be a setting within Acumatica on how the line item on the order i
  
 ## How do you handle Reward Points? 
 
-Customizations are required if reward points are to be maintained in Acumatica. Custom attribute can be created on the customer record to hold the current rewards points balance.  In addition, accounting needs to be setup to handle the balance as liability in Acumatica. 
+Customizations are required if reward points are to be maintained in Acumatica. Custom attribute can be created on the customer record to hold the current reward points balance.  In addition, accounting needs to be set up to handle the balance as liability in Acumatica. 
 
 ## How are Discounts handled? 
 

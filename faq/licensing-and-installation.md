@@ -13,7 +13,7 @@ Licensing is available for the connector on the Acumatica side.
 
 ## Is there an Acumatica add-on (Customization project) that is required to be installed? 
 
-Yes, we will be publishing AMConnector (Acumatica - Magento) customization packages.   
+Yes, AMConnector customization package needs to be published as an Acumatica Add-on to communicate Magento 
 
 ## Does the Acumatica add-on require additional licensing? 
 
@@ -38,23 +38,23 @@ Yes, a trial license of the connector is available and not the development licen
 
 ## What are the limitations of the trial license? 
 
-All features of the connector are available in a trial license. Data validation is limited to 100 records per day. 
+All features of the connector are available in a trial license. But there will be limitation on API calls of 100 records per day. 
 
 ## How do I know that my license is about to expire? 
 
-Email notifications would go on 30, 7, 3, 2, and 1 days before expiration, and these notifications would be sent to the “Admin” email that is configured in the license request screen. 
+Email notifications will be sent to the “Admin” contact that is configured in the license request screen on 30, 7, 3, 2, and 1 day/s before expiration. 
 
-A notification will also be shown on the Admin section in Magento, when the administrator logs-in. 
+A notification will also be sent on the Admin section in Magento, when the administrator logs on. 
 
-At the time of expiration, contact your account manager to arrange a renewal. 
+At the time of expiration, contact your account manager to arrange a license renewal. 
 
-## After the license expires, what would happen? 
+## What happends when the license is expired? 
 
-Once the license expires, all of the Acumatica-Magento Connector features will be disabled, and only help and license sections will be active and accessible. 
+Post License expires, all the AMConnector features will be unavailable/unaccessible except for the Help and Licensing sections.
 
 ## How can I renew an Annual/Recurring license? 
 
-Please contact our Sales/Account executive. 
+You can contact our Sales/Account executive. 
 
 ## If I send a license request for renewal one month before expiration, would the remaining one-month validity get added to the renewed license? 
 
