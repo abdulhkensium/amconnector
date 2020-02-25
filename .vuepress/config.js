@@ -47,7 +47,7 @@ module.exports = {
            { text: 'How and What', link: '/faq/how-and-what.md' }
          ]
        },
-          
+       { text: 'Videos', link: '/videos/' }, 
            
           ]
       },
