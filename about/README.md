@@ -19,4 +19,6 @@ the website.
 
 The Magento Connector links your Acumatica back-office solution with your Magento storefront, facilitating seamless communication of product, customer, and fulfillment data. When information is entered into one platform (Magento or Acumatica ERP), the two-way secured sync automatically populates fields in both systems, eliminating the need for duplicate entries.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bZqToilYD-g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video-block">
+<iframe max-width=100% height=auto src="https://www.youtube.com/embed/bZqToilYD-g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
