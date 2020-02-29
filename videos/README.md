@@ -31,3 +31,12 @@ Learn how to sync customer information, including customers with multiple addres
 <div class="video-block">
 <iframe max-width=100% height=auto src="https://www.youtube.com/embed/63_a8osd3Oc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+
+
+## Order Shipment Syncs with the Acumatica-Magento Connector
+
+Learn how optimized connection between merchants and customers by syncing order and shipment data in real time..
+
+<div class="video-block">
+<iframe max-width=100% height=auto src="https://www.youtube.com/embed/uk95z8SrqD8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
