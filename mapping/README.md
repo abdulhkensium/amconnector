@@ -246,6 +246,10 @@ Payment methods in Magento must be mapped with payment methods in Acumatica. The
 
 The payment method relationship has now been mapped.
 
+## Mapping Tax Category
+
+Tax class in Magento must be mapped with tax category in Acumatica. The purpose of this is to ensure taxes are processed and settled accurately from Magento to Acumatica. To begin, navigate to the A-M connector workspace in Magento and select “Tax category” under Mapping.
+
 ## Mapping Shipping Methods
 
 Shipping methods can be mapped bidirectionally depending on the nature of the order that has been placed.
